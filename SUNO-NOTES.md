@@ -155,3 +155,11 @@ differently, worth Grey's ear:
 - E.F. heard as "F" three times: the letters may be running together
 Which cardiac style this WAV came from (gang vocal or single lead) is not
 recorded; Grey to say.
+
+## Recall log (retrieval practice, lungs)
+
+| date | trial | prior exposure | drugs recalled | missed |
+|---|---|---|---|---|
+| 2026-09-17 | 1 | 10+ passive listens | gemcitabine, methotrexate, busulfan, "something duroxican" (4/7) | bleomycin (v1), everolimus/temsirolimus (v2), the five checkpoints (v5) |
+
+Inference, one trial only: the two multi-drug verses were both missed.
