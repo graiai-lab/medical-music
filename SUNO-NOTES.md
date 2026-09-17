@@ -112,3 +112,8 @@ names. Diction is the point, so the next single change is the style line:
 "single clear-diction male lead vocal, dry close-mic vocal with no backing
 vocals" in both songs. Exclude list unchanged. If cardiac filler remains
 after that, next single change: 140 -> 130 BPM.
+
+Lungs single-lead render (Grey): diction clearer but beat, rhythm and
+enunciation of the gang-vocal version were better overall. Lungs style
+REVERTED to the gang-vocal line; the occasional overlapping voices are
+accepted. Cardiac keeps the single-lead line until its render is judged.

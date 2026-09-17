@@ -11,10 +11,9 @@ has not been re-checked. Open questions are in `oe_questions.md`.
 
 Style:
 
-    folk rock, single clear-diction male lead vocal, dry close-mic vocal with
-    no backing vocals, strummed acoustic guitar and upright bass, driving 130 BPM
-    four-on-the-floor kick, one syllable per note, vocals every bar, consistent
-    full-band energy
+    folk rock, clear-diction male lead with tight gang-vocal harmonies,
+    strummed acoustic guitar and upright bass, driving 130 BPM four-on-the-floor
+    kick, one syllable per note, vocals every bar, consistent full-band energy
 
 [Verse 1]
 The blee-oh-MY-sin — count the dose
