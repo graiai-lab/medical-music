@@ -10,10 +10,10 @@ checkpoint-myocarditis mortality as numbers to verify. Open questions are in
 
 Style:
 
-    celtic folk punk stomp, male lead with full gang-vocal chorus, fiddle and
-    banjo and accordion, strummed acoustic guitar, upright bass, driving
-    four-on-the-floor kick, 140 BPM, clear diction, one syllable per note,
-    vocals every bar, consistent full-band energy
+    celtic folk punk stomp, single clear-diction male lead vocal, dry close-mic
+    vocal with no backing vocals, fiddle and banjo and accordion, strummed
+    acoustic guitar, upright bass, driving four-on-the-floor kick, 140 BPM, one
+    syllable per note, vocals every bar, consistent full-band energy
 
 [Verse 1]
 The doxorubicin will scar

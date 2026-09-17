@@ -103,3 +103,11 @@ the list with oohs and aahs, wordless vocals, vocalise, vocal pads, ad-libs,
 chanting. Next single change if they survive: style line "tight gang-vocal
 harmonies" -> "gang vocals singing the lyric in unison". Intro/solo counts
 with vs without the field: not yet reported.
+
+Result of the extended exclude list (Grey, same day): lungs better, cardiac
+still more filler than wanted, and on BOTH the gang vocals blur the drug
+names. Diction is the point, so the next single change is the style line:
+"tight gang-vocal harmonies" / "full gang-vocal chorus" replaced with
+"single clear-diction male lead vocal, dry close-mic vocal with no backing
+vocals" in both songs. Exclude list unchanged. If cardiac filler remains
+after that, next single change: 140 -> 130 BPM.
