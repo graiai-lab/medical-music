@@ -5,6 +5,7 @@
 For every lyrics/<song>.md this writes:
   lyrics/suno/<song>.lyrics.txt  the [Verse N] blocks and [End], nothing else
   lyrics/suno/<song>.style.txt   the indented style paragraph, one line
+  lyrics/suno/<song>.exclude.txt the Exclude Styles list (same for every song)
 Paste the first into Suno's Lyrics box and the second into Style. The md
 stays the record (title, status, OE state); these two files are the input.
 """
@@ -12,6 +13,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "lyrics" / "suno"
+# Exclude Styles: nouns only, no negation words; the field itself is the "not".
+EXCLUDE = ("instrumental intro, instrumental outro, guitar solo, fiddle solo, "
+           "banjo solo, instrumental break, sustained notes, vocal runs")
 OUT.mkdir(exist_ok=True)
 
 for md in sorted((ROOT / "lyrics").glob("*.md")):
@@ -41,4 +45,5 @@ for md in sorted((ROOT / "lyrics").glob("*.md")):
     verses.append(""); verses.append("[End]")
     (OUT / f"{md.stem}.lyrics.txt").write_text("\n".join(verses) + "\n")
     (OUT / f"{md.stem}.style.txt").write_text(" ".join(style) + "\n")
+    (OUT / f"{md.stem}.exclude.txt").write_text(EXCLUDE + "\n")
     print(f"{md.stem}: {sum(1 for v in verses if v.startswith('[Verse'))} verses, style {len(' '.join(style))} chars", flush=True)
