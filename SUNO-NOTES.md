@@ -117,3 +117,26 @@ Lungs single-lead render (Grey): diction clearer but beat, rhythm and
 enunciation of the gang-vocal version were better overall. Lungs style
 REVERTED to the gang-vocal line; the occasional overlapping voices are
 accepted. Cardiac keeps the single-lead line until its render is judged.
+
+## First real Suno renders aligned (2026-09-17, Pro, v6, full mixes downloaded as WAV)
+
+Demucs htdemucs vocal stems, separated locally (no Suno credits). Stem vs
+full-mix MMS_FA onsets: lungs median 0 ms, max 60 ms over 302 words;
+cardiac median 0 ms over 386 words except the final line, where the mix
+alignment smears into the outro. So the full mix aligns fine; the stem is
+kept for the tail and for WhisperX. Suno's own "Extract Stems" is not
+needed for alignment.
+
+MMS_FA scores on sung audio are lower than on speech (lungs stem mean
+0.67, cardiac stem 0.48, spoken test 0.93) but every word is placed in
+order and frame checks on lungs verse 1 land the circle, underline and
+notes on the sung word.
+
+WhisperX on the lungs stem, what it heard vs what we wrote (its transcript
+dropped the whole gemcitabine verse, which is why it is not the timing
+source):
+- tem-sir-OH-li-mus -> "Tanserolimus"; em-TOR -> "toward"
+- Trastuzumab deruxtecan -> "Trastazumab Diroxacan"
+- "five" (after ah-tez-oh, durva) and "HER2" not heard at all
+- ev-er-OH-li-mus, BYOO-sul-fan heard correctly
+Grey's own ear is the judge on these; the list says where to listen.
