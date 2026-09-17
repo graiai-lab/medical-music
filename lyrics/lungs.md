@@ -4,10 +4,10 @@ Song 1 of the chemo/immunotherapy set. Organ-of-catastrophe grouping: the
 drugs that wreck lungs. Each verse names the drug first, gives the common and
 the severe toxicity, and the admitting fork.
 
-Status: reordered version after the interference review (mTOR 2, checkpoints
-5, T-DXd 6, busulfan 7). The methotrexate verse is new since the first Suno
-render. OpenEvidence: the first version was checked in the chat; this wording
-has not been re-checked. Open questions are in `oe_questions.md`.
+Status: reordered version (mTOR 2, checkpoints 5, T-DXd 6, busulfan 7).
+OpenEvidence 2026-09-17: all seven verses correct. Nuance noted, not changed:
+the prior-thoracic-RT risk signal for checkpoint pneumonitis is real but not
+uniform across datasets (v5).
 
 Style:
 

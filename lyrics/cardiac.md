@@ -3,8 +3,12 @@
 Song 2 of the chemo/immunotherapy set. Nine verses. Checkpoints deliberately
 last (verse 9) so they do not share a slot with the lung song's verse 5.
 
-Status: rendered in Suno twice, as celtic folk punk and as Irish rebel;
-Grey keeps whichever enunciates better. Not yet checked in OpenEvidence. The chat itself flagged the doxorubicin threshold and the
+Status: rendered in Suno. OpenEvidence 2026-09-17: verses 1-7 and 9 correct;
+verse 8 rewritten (ponatinib boxed warning covers venous events too;
+dasatinib's vascular toxicity is pulmonary arterial hypertension and
+pleural effusions, not arterial occlusion). Nuances noted, not changed:
+fluoropyrimidine spasm can also present within days (v3); anthracycline
+cardiotoxicity can still appear decades later in a minority (v1). The chat itself flagged the doxorubicin threshold and the
 checkpoint-myocarditis mortality as numbers to verify. Open questions are in
 `oe_questions.md`.
 
@@ -87,13 +91,13 @@ when pressure hits the top
 
 [Verse 8]
 Ponatinib will clot the line
-the arteries, not veins
+the arteries and veins
 A stroke, an M.I., limb that dies
 that's what the box explains
-Nilotinib and dasatinib
-can do the vessel harm
-So check the pulses, check the legs
-and sound the right alarm
+Nilotinib will close the legs
+dasatinib, the lung
+Its pressure climbs, effusions form
+so echo when they're young
 
 [Verse 9]
 The checkpoints hit the heart as well
