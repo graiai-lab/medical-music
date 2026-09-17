@@ -168,3 +168,14 @@ says about its drug. Zero content recall after 10+ passive listens of a
 56-line song. Racette & Peretz 2007 predicts this for sung unfamiliar text
 learned by listening. Next test: ONE verse, lyrics in hand, sung along
 five times, then written recall of drug + payload.
+
+## Format decision point (2026-09-17, after zero recall)
+
+Wallace 1994, read via secondary sources: THREE verses of an unfamiliar
+ballad, same melody each verse, FIVE listening sessions each followed by
+written free recall. Same melody every verse gave the best verbatim recall;
+a different melody per verse was worse than speech. So: keep the shared
+meter and melody. What differs from Wallace in our set is the count (7 and
+9 verses vs 3) and the method (passive listening vs recall after every
+hearing). Decision pending Grey's one-verse test: split each organ song
+into 3-verse songs, learn one at a time, recall after each play.
