@@ -2,5 +2,8 @@ venv/
 media/
 __pycache__/
 video/renders/
-pip-manim.log
+pip-*.log
+mms_download.log
 video/render.log
+video/timing.tsv
+audio/test/mfa_out/alignment_analysis.csv

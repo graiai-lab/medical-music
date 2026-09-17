@@ -18,10 +18,11 @@ import re
 import sys
 from pathlib import Path
 
+import torch
 import whisperx
 
 audio_path, lyric_path, out_path = map(Path, sys.argv[1:4])
-device = "cuda" if whisperx.torch.cuda.is_available() else "cpu"  # type: ignore[attr-defined]
+device = "cuda" if torch.cuda.is_available() else "cpu"
 compute = "float16" if device == "cuda" else "int8"
 print(f"device={device}", flush=True)
 

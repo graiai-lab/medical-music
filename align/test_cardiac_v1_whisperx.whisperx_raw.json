@@ -1,0 +1,558 @@
+{
+ "segments": [
+  {
+   "start": 0.071,
+   "end": 1.734,
+   "text": " The doxorubicin will scar the muscle.",
+   "words": [
+    {
+     "word": "The",
+     "start": 0.071,
+     "end": 0.151,
+     "score": 0.962
+    },
+    {
+     "word": "doxorubicin",
+     "start": 0.191,
+     "end": 0.853,
+     "score": 0.604
+    },
+    {
+     "word": "will",
+     "start": 0.873,
+     "end": 1.033,
+     "score": 0.815
+    },
+    {
+     "word": "scar",
+     "start": 1.053,
+     "end": 1.293,
+     "score": 0.853
+    },
+    {
+     "word": "the",
+     "start": 1.313,
+     "end": 1.394,
+     "score": 0.926
+    },
+    {
+     "word": "muscle.",
+     "start": 1.434,
+     "end": 1.734,
+     "score": 0.652
+    }
+   ],
+   "avg_logprob": -0.06335180428895083
+  },
+  {
+   "start": 2.175,
+   "end": 6.243,
+   "text": "Slow and deep 250 marks the modern line no dose you give is cheap the first year.",
+   "words": [
+    {
+     "word": "Slow",
+     "start": 2.175,
+     "end": 2.456,
+     "score": 0.903
+    },
+    {
+     "word": "and",
+     "start": 2.556,
+     "end": 2.636,
+     "score": 0.849
+    },
+    {
+     "word": "deep",
+     "start": 2.656,
+     "end": 2.856,
+     "score": 0.993
+    },
+    {
+     "word": "250",
+     "start": 2.917,
+     "end": 3.397,
+     "score": 0.759
+    },
+    {
+     "word": "marks",
+     "start": 3.437,
+     "end": 3.678,
+     "score": 0.912
+    },
+    {
+     "word": "the",
+     "start": 3.738,
+     "end": 3.798,
+     "score": 1.0
+    },
+    {
+     "word": "modern",
+     "start": 3.838,
+     "end": 4.139,
+     "score": 0.878
+    },
+    {
+     "word": "line",
+     "start": 4.179,
+     "end": 4.439,
+     "score": 0.856
+    },
+    {
+     "word": "no",
+     "start": 4.5,
+     "end": 4.64,
+     "score": 0.996
+    },
+    {
+     "word": "dose",
+     "start": 4.68,
+     "end": 4.9,
+     "score": 0.859
+    },
+    {
+     "word": "you",
+     "start": 4.94,
+     "end": 5.041,
+     "score": 0.995
+    },
+    {
+     "word": "give",
+     "start": 5.061,
+     "end": 5.201,
+     "score": 0.899
+    },
+    {
+     "word": "is",
+     "start": 5.261,
+     "end": 5.321,
+     "score": 0.574
+    },
+    {
+     "word": "cheap",
+     "start": 5.381,
+     "end": 5.602,
+     "score": 0.794
+    },
+    {
+     "word": "the",
+     "start": 5.622,
+     "end": 5.682,
+     "score": 0.997
+    },
+    {
+     "word": "first",
+     "start": 5.722,
+     "end": 5.962,
+     "score": 0.833
+    },
+    {
+     "word": "year.",
+     "start": 6.002,
+     "end": 6.243,
+     "score": 0.81
+    }
+   ],
+   "avg_logprob": -0.06335180428895083
+  },
+  {
+   "start": 6.804,
+   "end": 11.553,
+   "text": "Is when most will show not decades down the line the echo tells you when it starts the EF and declines.",
+   "words": [
+    {
+     "word": "Is",
+     "start": 6.804,
+     "end": 6.884,
+     "score": 0.801
+    },
+    {
+     "word": "when",
+     "start": 6.904,
+     "end": 7.064,
+     "score": 0.842
+    },
+    {
+     "word": "most",
+     "start": 7.104,
+     "end": 7.325,
+     "score": 0.818
+    },
+    {
+     "word": "will",
+     "start": 7.365,
+     "end": 7.545,
+     "score": 0.841
+    },
+    {
+     "word": "show",
+     "start": 7.585,
+     "end": 7.746,
+     "score": 0.936
+    },
+    {
+     "word": "not",
+     "start": 7.786,
+     "end": 7.926,
+     "score": 0.901
+    },
+    {
+     "word": "decades",
+     "start": 7.966,
+     "end": 8.387,
+     "score": 0.865
+    },
+    {
+     "word": "down",
+     "start": 8.447,
+     "end": 8.627,
+     "score": 0.928
+    },
+    {
+     "word": "the",
+     "start": 8.667,
+     "end": 8.748,
+     "score": 0.836
+    },
+    {
+     "word": "line",
+     "start": 8.788,
+     "end": 9.028,
+     "score": 0.766
+    },
+    {
+     "word": "the",
+     "start": 9.048,
+     "end": 9.168,
+     "score": 0.689
+    },
+    {
+     "word": "echo",
+     "start": 9.229,
+     "end": 9.449,
+     "score": 0.874
+    },
+    {
+     "word": "tells",
+     "start": 9.489,
+     "end": 9.77,
+     "score": 0.8
+    },
+    {
+     "word": "you",
+     "start": 9.79,
+     "end": 9.89,
+     "score": 0.999
+    },
+    {
+     "word": "when",
+     "start": 9.93,
+     "end": 10.05,
+     "score": 0.874
+    },
+    {
+     "word": "it",
+     "start": 10.09,
+     "end": 10.17,
+     "score": 0.787
+    },
+    {
+     "word": "starts",
+     "start": 10.21,
+     "end": 10.511,
+     "score": 0.725
+    },
+    {
+     "word": "the",
+     "start": 10.551,
+     "end": 10.671,
+     "score": 0.782
+    },
+    {
+     "word": "EF",
+     "start": 10.731,
+     "end": 10.972,
+     "score": 0.89
+    },
+    {
+     "word": "and",
+     "start": 11.012,
+     "end": 11.092,
+     "score": 0.429
+    },
+    {
+     "word": "declines.",
+     "start": 11.112,
+     "end": 11.553,
+     "score": 0.869
+    }
+   ],
+   "avg_logprob": -0.06335180428895083
+  }
+ ],
+ "word_segments": [
+  {
+   "word": "The",
+   "start": 0.071,
+   "end": 0.151,
+   "score": 0.962
+  },
+  {
+   "word": "doxorubicin",
+   "start": 0.191,
+   "end": 0.853,
+   "score": 0.604
+  },
+  {
+   "word": "will",
+   "start": 0.873,
+   "end": 1.033,
+   "score": 0.815
+  },
+  {
+   "word": "scar",
+   "start": 1.053,
+   "end": 1.293,
+   "score": 0.853
+  },
+  {
+   "word": "the",
+   "start": 1.313,
+   "end": 1.394,
+   "score": 0.926
+  },
+  {
+   "word": "muscle.",
+   "start": 1.434,
+   "end": 1.734,
+   "score": 0.652
+  },
+  {
+   "word": "Slow",
+   "start": 2.175,
+   "end": 2.456,
+   "score": 0.903
+  },
+  {
+   "word": "and",
+   "start": 2.556,
+   "end": 2.636,
+   "score": 0.849
+  },
+  {
+   "word": "deep",
+   "start": 2.656,
+   "end": 2.856,
+   "score": 0.993
+  },
+  {
+   "word": "250",
+   "start": 2.917,
+   "end": 3.397,
+   "score": 0.759
+  },
+  {
+   "word": "marks",
+   "start": 3.437,
+   "end": 3.678,
+   "score": 0.912
+  },
+  {
+   "word": "the",
+   "start": 3.738,
+   "end": 3.798,
+   "score": 1.0
+  },
+  {
+   "word": "modern",
+   "start": 3.838,
+   "end": 4.139,
+   "score": 0.878
+  },
+  {
+   "word": "line",
+   "start": 4.179,
+   "end": 4.439,
+   "score": 0.856
+  },
+  {
+   "word": "no",
+   "start": 4.5,
+   "end": 4.64,
+   "score": 0.996
+  },
+  {
+   "word": "dose",
+   "start": 4.68,
+   "end": 4.9,
+   "score": 0.859
+  },
+  {
+   "word": "you",
+   "start": 4.94,
+   "end": 5.041,
+   "score": 0.995
+  },
+  {
+   "word": "give",
+   "start": 5.061,
+   "end": 5.201,
+   "score": 0.899
+  },
+  {
+   "word": "is",
+   "start": 5.261,
+   "end": 5.321,
+   "score": 0.574
+  },
+  {
+   "word": "cheap",
+   "start": 5.381,
+   "end": 5.602,
+   "score": 0.794
+  },
+  {
+   "word": "the",
+   "start": 5.622,
+   "end": 5.682,
+   "score": 0.997
+  },
+  {
+   "word": "first",
+   "start": 5.722,
+   "end": 5.962,
+   "score": 0.833
+  },
+  {
+   "word": "year.",
+   "start": 6.002,
+   "end": 6.243,
+   "score": 0.81
+  },
+  {
+   "word": "Is",
+   "start": 6.804,
+   "end": 6.884,
+   "score": 0.801
+  },
+  {
+   "word": "when",
+   "start": 6.904,
+   "end": 7.064,
+   "score": 0.842
+  },
+  {
+   "word": "most",
+   "start": 7.104,
+   "end": 7.325,
+   "score": 0.818
+  },
+  {
+   "word": "will",
+   "start": 7.365,
+   "end": 7.545,
+   "score": 0.841
+  },
+  {
+   "word": "show",
+   "start": 7.585,
+   "end": 7.746,
+   "score": 0.936
+  },
+  {
+   "word": "not",
+   "start": 7.786,
+   "end": 7.926,
+   "score": 0.901
+  },
+  {
+   "word": "decades",
+   "start": 7.966,
+   "end": 8.387,
+   "score": 0.865
+  },
+  {
+   "word": "down",
+   "start": 8.447,
+   "end": 8.627,
+   "score": 0.928
+  },
+  {
+   "word": "the",
+   "start": 8.667,
+   "end": 8.748,
+   "score": 0.836
+  },
+  {
+   "word": "line",
+   "start": 8.788,
+   "end": 9.028,
+   "score": 0.766
+  },
+  {
+   "word": "the",
+   "start": 9.048,
+   "end": 9.168,
+   "score": 0.689
+  },
+  {
+   "word": "echo",
+   "start": 9.229,
+   "end": 9.449,
+   "score": 0.874
+  },
+  {
+   "word": "tells",
+   "start": 9.489,
+   "end": 9.77,
+   "score": 0.8
+  },
+  {
+   "word": "you",
+   "start": 9.79,
+   "end": 9.89,
+   "score": 0.999
+  },
+  {
+   "word": "when",
+   "start": 9.93,
+   "end": 10.05,
+   "score": 0.874
+  },
+  {
+   "word": "it",
+   "start": 10.09,
+   "end": 10.17,
+   "score": 0.787
+  },
+  {
+   "word": "starts",
+   "start": 10.21,
+   "end": 10.511,
+   "score": 0.725
+  },
+  {
+   "word": "the",
+   "start": 10.551,
+   "end": 10.671,
+   "score": 0.782
+  },
+  {
+   "word": "EF",
+   "start": 10.731,
+   "end": 10.972,
+   "score": 0.89
+  },
+  {
+   "word": "and",
+   "start": 11.012,
+   "end": 11.092,
+   "score": 0.429
+  },
+  {
+   "word": "declines.",
+   "start": 11.112,
+   "end": 11.553,
+   "score": 0.869
+  }
+ ]
+}

@@ -1,0 +1,10 @@
+[Verse 1]
+The doxorubicin will scar
+the muscle, slow and deep
+Two-fifty marks the modern line
+no dose you give is cheap
+The first year is when most will show
+not decades down the line
+The echo tells you when it starts
+the E.F. in decline
+

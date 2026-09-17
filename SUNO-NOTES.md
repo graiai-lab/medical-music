@@ -65,3 +65,30 @@ checkpoints in both). So:
 - Each song has its own vocabulary for recurring concepts ("the pressure
   starts to..." was in both and got rewritten out of cardiac).
 - Learn them spaced out; do not build all eight in a week.
+
+
+## Forced alignment (chosen 2026-09-17, measured on a piper-spoken verse)
+
+Three aligners were run on the same 12 s spoken clip of cardiac verse 1
+(`audio/test/`), because we KNOW the words: this is forced alignment of a
+known text, not transcription.
+
+| aligner | what it is | result on the clip |
+|---|---|---|
+| torchaudio MMS_FA (`tool/align_mms.py`) | character CTC, no dictionary, takes our lyric text | 44/44 words in order; correct text scores mean 0.93, wrong text mean 0.35 with 70 % of words below 0.5, so the score flags a bad match |
+| WhisperX (`tool/align.py`) | transcribes, then wav2vec2-aligns its own transcript; we map heard words back onto ours | onsets within 20 ms median, 58 ms max of MMS_FA; heard 3/44 words differently (Two-fifty, in, decline) |
+| Montreal Forced Aligner 3.3.8, cochlea's `mfa_cpu` env, english_us_arpa | dictionary + GMM, what cochlea used for the YouTube captions | 0 unknown words on this clip; onsets median 25 ms, max 137 ms from MMS_FA |
+
+Decision: MMS_FA is the scene's timing source. It takes the lyric as
+written, so respellings like "blee-oh-MY-sin" and abbreviations like
+"E.F." align as spelled with no dictionary, and its per-word score tells us
+where Suno sang something else. WhisperX stays as the "what did Suno
+actually sing" detector for the mispronunciation table above. MFA needs
+every word in its dictionary (or a G2P model, which is not installed) and
+is the one most likely to fail on sung drug names; kept only as a check.
+Still unmeasured: all three on a real Suno vocal stem. Re-run the same
+comparison the day the first stem lands (`align/test_aligner_comparison.md`).
+
+Manim timing: the scene reads the renderer's clock before every word;
+residual error is at most one frame (measured 66 ms at 15 fps preview,
+1080p60 renders at 17 ms).

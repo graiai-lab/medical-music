@@ -17,7 +17,7 @@ with an arrow to the word, so they never collide with the lyric lines.
 import json
 import os
 
-from manim import (BLUE, DOWN, LEFT, RIGHT, UP, WHITE, YELLOW, Arrow, Create,
+from manim import (BLUE, DOWN, LEFT, RIGHT, UP, WHITE, YELLOW, AnimationGroup, Arrow, Create,
                    Ellipse, FadeIn, Scene, Text, Underline, VGroup, Write,
                    config)
 
@@ -72,36 +72,49 @@ class VerseAnnotate(Scene):
         margin_x = config.frame_width / 2 - 0.6   # right edge for notes
         used_note_ys = []
 
+        # Time-locked schedule: every word's reveal STARTS at its aligned
+        # start, and the reveal plus any annotation on it fits inside the
+        # gap before the next word, so the scene can never drift behind the
+        # audio. (The first version ran annotations serially and drifted
+        # about a second per verse; caught by frame-checking "echo".)
+        # Measured 2026-09-17: Manim rounds every play() and wait() UP to
+        # whole frames, so a private clock drifted 1.58 s behind the audio
+        # over 44 words at 15 fps. The clock is therefore the renderer's own
+        # time, re-read before every word, so rounding never accumulates.
         pending = list(annots)
-        clock = 0.0
-        for w, glyphs in sung:
+        frame = 1 / config.frame_rate
+        starts = [w["start"] for w, _ in sung]
+        for idx, (w, glyphs) in enumerate(sung):
+            clock = self.renderer.time
             gap = w["start"] - clock
-            if gap > 0:
+            if gap >= frame:
                 self.wait(gap)
-                clock = w["start"]
-            t = min(max(0.15, w["end"] - w["start"]), 0.3)
-            self.play(FadeIn(glyphs, shift=UP * 0.08), run_time=t)
-            clock += t
+                clock = self.renderer.time
+            nxt = starts[idx + 1] if idx + 1 < len(starts) else w["end"] + 0.6
+            budget = max(frame, min(0.35, nxt - clock))
+            anims = [FadeIn(glyphs, shift=UP * 0.08)]
             key = w["word"].lower().strip(",.—")
             hit = next((a for a in pending if a["at"].lower().strip(",.—") == key), None)
             if hit:
                 pending.remove(hit)
-                dt = self._annotate(hit, glyphs, margin_x, used_note_ys)
-                clock += dt
+                anims.append(self._annotation(hit, glyphs, margin_x, used_note_ys))
+            if os.environ.get("TIMING_LOG"):
+                with open(os.environ["TIMING_LOG"], "a") as fh:
+                    fh.write(f'{w["word"]}\t{w["start"]:.3f}\t{clock:.3f}\t{self.renderer.time:.3f}\t{budget:.3f}\n'); fh.flush()
+            self.play(*anims, run_time=budget)
         if pending:
             print("UNMATCHED ANNOTATIONS:", [a["at"] for a in pending], flush=True)
         self.wait(1.5)
 
-    def _annotate(self, a, glyphs, margin_x, used_ys):
+    def _annotation(self, a, glyphs, margin_x, used_ys):
+        """Build the annotation animation for one word (played with its reveal)."""
         kind = a["do"]
         if kind == "circle":
             ring = Ellipse(width=glyphs.width + 0.35, height=glyphs.height + 0.45,
                            color=YELLOW, stroke_width=3).move_to(glyphs)
-            self.play(Create(ring), run_time=0.5)
-            return 0.5
+            return Create(ring)
         if kind == "underline":
-            self.play(Create(Underline(glyphs, color=YELLOW, buff=0.08)), run_time=0.4)
-            return 0.4
+            return Create(Underline(glyphs, color=YELLOW, buff=0.08))
         if kind == "note":
             # Note sits in the right margin in the GAP above the word's line,
             # so the arrow runs through the gap and lands on the word's top
@@ -115,6 +128,5 @@ class VerseAnnotate(Scene):
             tip = glyphs.get_corner(UP + RIGHT) + [0.05, 0.02, 0]
             arr = Arrow(note.get_left(), tip, buff=0.1, color=BLUE, stroke_width=3,
                         max_tip_length_to_length_ratio=0.1)
-            self.play(Write(note), Create(arr), run_time=0.7)
-            return 0.7
-        return 0.0
+            return AnimationGroup(Write(note), Create(arr))
+        raise ValueError(f"unknown annotation kind {kind!r}")
