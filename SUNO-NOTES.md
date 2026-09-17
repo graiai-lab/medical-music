@@ -51,3 +51,17 @@ For cardiac Grey wants the flavour nearer Mumford & Sons, Clumsy Lovers, sea
 shanties, Flogging Molly. Artist names do not survive normalisation, so
 translate to mechanical descriptors (banjo-forward, stomp-and-clap, call-and-
 response gang vocals, accordion/fiddle, 6/8 or driving 4/4).
+
+## Interference between songs (settled in the chat)
+
+Eight songs on one melody means the melody cues eight destinations and the
+strongest wins, worst where content overlaps (trastuzumab vs T-DXd,
+checkpoints in both). So:
+- Same meter every song (so verses stay shufflable), different TUNE and
+  different GENRE per organ. Lungs = folk rock, cardiac = celtic punk stomp.
+- Never the same drug or the same sentence shape in the same verse number
+  across two songs. Checkpoints: lungs 5, cardiac 9. Trastuzumab: cardiac 2,
+  T-DXd: lungs 6.
+- Each song has its own vocabulary for recurring concepts ("the pressure
+  starts to..." was in both and got rewritten out of cardiac).
+- Learn them spaced out; do not build all eight in a week.

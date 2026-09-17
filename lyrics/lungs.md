@@ -1,50 +1,88 @@
-# Lungs
+# Drug-Induced Lung Toxicity
 
-Pilot song. Organ-of-catastrophe grouping: the drugs that wreck lungs.
-Each verse: drug named first, the common toxicity and the severe one, and the
-admitting fork (infection vs drug; antibiotics vs steroids).
+Song 1 of the chemo/immunotherapy set. Organ-of-catastrophe grouping: the
+drugs that wreck lungs. Each verse names the drug first, gives the common and
+the severe toxicity, and the admitting fork.
 
-Status: verses 1, 2, 4, 5, 6 as revised after the first Suno render.
-The finished song has seven verses (per the chat); verses 3 and 7 and the
-chorus are missing here. Title format: Drug-Induced Pulmonary Toxicity.
-**Verse 3 and the chorus are not in this file yet** (not in the pasted
-transcript). OpenEvidence check: done in the original chat per Grey; the
-revised wording below has not been re-checked.
+Status: reordered version after the interference review (mTOR 2, checkpoints
+5, T-DXd 6, busulfan 7). The methotrexate verse is new since the first Suno
+render. OpenEvidence: the first version was checked in the chat; this wording
+has not been re-checked. Open questions are in `oe_questions.md`.
+
+Style:
+
+    folk rock, clear-diction male lead with tight gang-vocal harmonies,
+    strummed acoustic guitar and upright bass, driving 130 BPM four-on-the-floor
+    kick, one syllable per note, vocals every bar, consistent full-band energy
 
 [Verse 1]
-Blee-oh-MY-sin — count the units, four hundred is the mark
-Dry cough and basal crackles, and the scarring's in the dark
-Oxygen will feed the fire — before they scope or cut
-Tell them keep the oxygen low, and keep that window shut
+The blee-oh-MY-sin — count the dose
+four hundred is the mark
+The cough is dry, the crackles low
+the scarring's in the dark
+The oxygen will feed the fire
+before they scope or cut
+So warn them, keep the flow down low
+and keep that window shut
 
 [Verse 2]
-Trastuzumab deruxtecan — HER2, and watch the chest
-I.L.D. is boxed and warned, it kills more than the rest
-Symptomatic? Stop for good — that's permanent, that's the rule
-No symptoms, just a scan? Then hold — restart if the scan stays cool
+The ev-er-OH-li-mus will scar
+with lungs that sound all clear
+And tem-sir-OH-li-mus will too
+both em-TOR drugs, both here
+The scan will catch it on its own
+before the symptoms show
+The mild ones you can watch and wait
+the rest, the drug must go
 
 [Verse 3]
-(missing — the chat's respelling list has em-TOR, so this is the mTOR verse)
+Gem-SITE-uh-bean will leak the lung
+in days to weeks, not years
+It looks like fluid overload
+that's where the picture steers
+The lasix does not clear the chest
+the heart is not to blame
+So stop the drug and steroid quick
+and think the drug's own name
 
 [Verse 4]
-Gem-SITE-uh-been will leak the lungs in days to weeks, not years
-It looks like fluid overload — that's where the picture steers
-But lasix alone won't fix it, and the heart is not to blame
-Stop the drug and steroid early — think the drug, and think its name
+The methotrexate, low or high
+the dose is not the key
+It's hypersensitivity
+and that's the thing to see
+The eosinophils will rise
+the cultures all stay dry
+So stop the drug, give steroids too
+and watch the fever die
 
 [Verse 5]
-The checkpoints — pembro, nivo, ah-tez-oh, durva, ipi too
-From weeks to months, and after stopping, it can still come through
-A lung primary, prior chest R.T., will raise the risk
-Cover for infection first, then steroids are the fix
+With pembro, nivo, ipi too
+ah-tez-oh, durva — five
+From weeks to months, and after stop
+it still can come alive
+The risk is higher in the lung
+and prior chest R.T.
+Exclude infection, cover first
+then steroids hold the key
 
 [Verse 6]
-Busulfan, and years have passed — the fibrosis shows up late
-Lung function low, diffusion low, and nothing acute to date
-No fever and no infiltrate, just breathlessness that grew
-Ask about the marrow transplant — that's the question you skip through
+Trastuzumab deruxtecan
+with HER2, watch the chest
+The parent drug will take the heart
+the payload takes the rest
+The I.L.D. is boxed and warned
+if symptoms, then it's done
+No symptoms, just a scan? Then hold
+you can restart that one
 
 [Verse 7]
-(missing)
+The BYOO-sul-fan, and years have passed
+the scarring comes on slow
+Restriction on the P.F.T.
+diffusion running low
+The films are clear, no fever there
+just breathlessness that grew
+So ask about the transplant first
+the question you skip through
 
 [End]
