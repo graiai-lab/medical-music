@@ -50,8 +50,12 @@ def syllables(word):
     if re.fullmatch(r"(?:[a-z]\.)+'?s?", w):       # spelled abbreviation E.F. / D.P.D.'s
         return len(re.findall(r"[a-z]\.", w))
     w = w.strip(".")
+    if w.endswith("'s"):                             # possessive: count the stem
+        w = w[:-2]
     if w in OVERRIDE:
         return OVERRIDE[w]
+    if re.search(r"[^aeiousxz]es$", w) and not w.endswith(("ches", "shes")):
+        w = w[:-1]                                   # moves, tastes, comes: silent e before s
     if "-" in w:
         return sum(syllables(p) for p in w.split("-"))
     groups = len(re.findall(r"[aeiouy]+", w))

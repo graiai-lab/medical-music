@@ -163,3 +163,8 @@ recorded; Grey to say.
 | 2026-09-17 | 1 | 10+ passive listens | gemcitabine, methotrexate, busulfan, "something duroxican" (4/7) | bleomycin (v1), everolimus/temsirolimus (v2), the five checkpoints (v5) |
 
 Inference, one trial only: the two multi-drug verses were both missed.
+Same session, verse content: Grey can say nothing about what any verse
+says about its drug. Zero content recall after 10+ passive listens of a
+56-line song. Racette & Peretz 2007 predicts this for sung unfamiliar text
+learned by listening. Next test: ONE verse, lyrics in hand, sung along
+five times, then written recall of drug + payload.
