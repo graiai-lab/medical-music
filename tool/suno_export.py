@@ -15,7 +15,8 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "lyrics" / "suno"
 # Exclude Styles: nouns only, no negation words; the field itself is the "not".
 EXCLUDE = ("instrumental intro, instrumental outro, guitar solo, fiddle solo, "
-           "banjo solo, instrumental break, sustained notes, vocal runs")
+           "banjo solo, instrumental break, sustained notes, vocal runs, "
+           "oohs and aahs, wordless vocals, vocalise, vocal pads, ad-libs, chanting")
 OUT.mkdir(exist_ok=True)
 
 for md in sorted((ROOT / "lyrics").glob("*.md")):

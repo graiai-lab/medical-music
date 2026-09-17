@@ -92,3 +92,14 @@ comparison the day the first stem lands (`align/test_aligner_comparison.md`).
 Manim timing: the scene reads the renderer's clock before every word;
 residual error is at most one frame (measured 66 ms at 15 fps preview,
 1080p60 renders at 17 ms).
+
+## Exclude Styles A/B (Pro plan, v6, 2026-09-17)
+
+Pro Custom mode has an Exclude field under Advanced Options. First list
+tried: instrumental intro/outro, guitar/fiddle/banjo solo, instrumental
+break, sustained notes, vocal runs. Grey's report: wordless backing vocals
+survived ("oooh-aaah" call-and-response harmonies, not the lyric). Extended
+the list with oohs and aahs, wordless vocals, vocalise, vocal pads, ad-libs,
+chanting. Next single change if they survive: style line "tight gang-vocal
+harmonies" -> "gang vocals singing the lyric in unison". Intro/solo counts
+with vs without the field: not yet reported.
