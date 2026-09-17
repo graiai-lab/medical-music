@@ -7,3 +7,6 @@ mms_download.log
 video/render.log
 video/timing.tsv
 audio/test/mfa_out/alignment_analysis.csv
+
+# raw Suno WAV downloads; the FLAC next to each is the tracked lossless copy
+audio/*.wav
