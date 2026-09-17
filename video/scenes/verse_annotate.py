@@ -61,7 +61,13 @@ class VerseAnnotate(Scene):
                        disable_ligatures=True)  # "fi"/"fl" ligatures break glyph indexing
             rows.add(row)
             sung.extend(zip(lines[li], word_slices(row, lines[li])))
-        rows.arrange(DOWN, aligned_edge=LEFT, buff=0.55).to_edge(LEFT, buff=0.7).to_edge(UP, buff=0.8)
+        rows.arrange(DOWN, aligned_edge=LEFT, buff=0.55)
+        # Fit the verse in the frame: eight common-meter lines at 40pt with
+        # note gaps overflow 480p/1080p alike, so scale to leave 0.6 margins.
+        max_h = config.frame_height - 1.2
+        if rows.height > max_h:
+            rows.scale(max_h / rows.height)
+        rows.to_edge(LEFT, buff=0.7).to_edge(UP, buff=0.6)
 
         margin_x = config.frame_width / 2 - 0.6   # right edge for notes
         used_note_ys = []
