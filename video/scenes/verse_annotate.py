@@ -61,7 +61,7 @@ class VerseAnnotate(Scene):
                        disable_ligatures=True)  # "fi"/"fl" ligatures break glyph indexing
             rows.add(row)
             sung.extend(zip(lines[li], word_slices(row, lines[li])))
-        rows.arrange(DOWN, aligned_edge=LEFT, buff=0.4).to_edge(LEFT, buff=0.7).to_edge(UP, buff=0.8)
+        rows.arrange(DOWN, aligned_edge=LEFT, buff=0.55).to_edge(LEFT, buff=0.7).to_edge(UP, buff=0.8)
 
         margin_x = config.frame_width / 2 - 0.6   # right edge for notes
         used_note_ys = []
@@ -97,17 +97,18 @@ class VerseAnnotate(Scene):
             self.play(Create(Underline(glyphs, color=YELLOW, buff=0.08)), run_time=0.4)
             return 0.4
         if kind == "note":
-            # Note sits in the right margin on the word's own line, so the
-            # arrow is horizontal and crosses no other lyric. If that line
-            # already holds a note, drop half a line.
-            y = glyphs.get_center()[1]
-            while any(abs(y - u) < 0.45 for u in used_ys):
-                y -= 0.45
+            # Note sits in the right margin in the GAP above the word's line,
+            # so the arrow runs through the gap and lands on the word's top
+            # right corner without striking through the rest of the line.
+            y = glyphs.get_top()[1] + 0.3
+            while any(abs(y - u) < 0.4 for u in used_ys):
+                y -= 0.4
             used_ys.append(y)
             note = Text(a["text"], font_size=NOTE_SIZE, color=BLUE)
             note.move_to([margin_x - note.width / 2, y, 0])
-            arr = Arrow(note.get_left(), [glyphs.get_right()[0], y, 0], buff=0.1,
-                        color=BLUE, stroke_width=3, max_tip_length_to_length_ratio=0.1)
+            tip = glyphs.get_corner(UP + RIGHT) + [0.05, 0.02, 0]
+            arr = Arrow(note.get_left(), tip, buff=0.1, color=BLUE, stroke_width=3,
+                        max_tip_length_to_length_ratio=0.1)
             self.play(Write(note), Create(arr), run_time=0.7)
             return 0.7
         return 0.0
