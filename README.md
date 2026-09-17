@@ -22,3 +22,18 @@ verses. Slow tempo, no melisma, no syncopation. Concrete, imageable words.
 
 lyrics → Suno → forced alignment (word timestamps) → Manim lyric annotation +
 sourced cutaways → composite (ffmpeg / DaVinci Resolve)
+
+## Video: lyric annotation scene
+
+```
+source venv/bin/activate.fish
+ALIGN=align/cardiac_v1_synthetic.json ANNOT=video/scenes/cardiac_v1.json \
+  manim -ql video/scenes/verse_annotate.py VerseAnnotate      # -qh for 1080p
+```
+
+`ALIGN` is word-level timestamps (WhisperX shape). `align/*_synthetic.json`
+is a 140 BPM one-syllable-per-beat grid used only until the Suno vocal is
+aligned; it is not a measurement of the recording. `ANNOT` lists what to
+draw on which word: `circle`, `underline`, or `note` with text.
+Renders land in `media/` (gitignored); keep any you want in `video/renders/`
+(also gitignored, they are regenerable).

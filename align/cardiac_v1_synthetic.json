@@ -1,0 +1,269 @@
+{
+ "source": "SYNTHETIC 140 BPM grid, not an alignment",
+ "words": [
+  {
+   "word": "The",
+   "start": 0.0,
+   "end": 0.429,
+   "line": 0
+  },
+  {
+   "word": "doxorubicin",
+   "start": 0.429,
+   "end": 2.571,
+   "line": 0
+  },
+  {
+   "word": "will",
+   "start": 2.571,
+   "end": 3.0,
+   "line": 0
+  },
+  {
+   "word": "scar",
+   "start": 3.0,
+   "end": 3.429,
+   "line": 0
+  },
+  {
+   "word": "the",
+   "start": 3.429,
+   "end": 3.857,
+   "line": 1
+  },
+  {
+   "word": "muscle,",
+   "start": 3.857,
+   "end": 4.714,
+   "line": 1
+  },
+  {
+   "word": "slow",
+   "start": 4.714,
+   "end": 5.143,
+   "line": 1
+  },
+  {
+   "word": "and",
+   "start": 5.143,
+   "end": 5.571,
+   "line": 1
+  },
+  {
+   "word": "deep",
+   "start": 5.571,
+   "end": 6.0,
+   "line": 1
+  },
+  {
+   "word": "Two-fifty",
+   "start": 6.0,
+   "end": 7.286,
+   "line": 2
+  },
+  {
+   "word": "marks",
+   "start": 7.286,
+   "end": 7.714,
+   "line": 2
+  },
+  {
+   "word": "the",
+   "start": 7.714,
+   "end": 8.143,
+   "line": 2
+  },
+  {
+   "word": "modern",
+   "start": 8.143,
+   "end": 9.0,
+   "line": 2
+  },
+  {
+   "word": "line",
+   "start": 9.0,
+   "end": 9.429,
+   "line": 2
+  },
+  {
+   "word": "no",
+   "start": 9.429,
+   "end": 9.857,
+   "line": 3
+  },
+  {
+   "word": "dose",
+   "start": 9.857,
+   "end": 10.286,
+   "line": 3
+  },
+  {
+   "word": "you",
+   "start": 10.286,
+   "end": 10.714,
+   "line": 3
+  },
+  {
+   "word": "give",
+   "start": 10.714,
+   "end": 11.143,
+   "line": 3
+  },
+  {
+   "word": "is",
+   "start": 11.143,
+   "end": 11.571,
+   "line": 3
+  },
+  {
+   "word": "cheap",
+   "start": 11.571,
+   "end": 12.0,
+   "line": 3
+  },
+  {
+   "word": "The",
+   "start": 12.0,
+   "end": 12.429,
+   "line": 4
+  },
+  {
+   "word": "first",
+   "start": 12.429,
+   "end": 12.857,
+   "line": 4
+  },
+  {
+   "word": "year",
+   "start": 12.857,
+   "end": 13.286,
+   "line": 4
+  },
+  {
+   "word": "is",
+   "start": 13.286,
+   "end": 13.714,
+   "line": 4
+  },
+  {
+   "word": "when",
+   "start": 13.714,
+   "end": 14.143,
+   "line": 4
+  },
+  {
+   "word": "most",
+   "start": 14.143,
+   "end": 14.571,
+   "line": 4
+  },
+  {
+   "word": "will",
+   "start": 14.571,
+   "end": 15.0,
+   "line": 4
+  },
+  {
+   "word": "show",
+   "start": 15.0,
+   "end": 15.429,
+   "line": 4
+  },
+  {
+   "word": "not",
+   "start": 15.429,
+   "end": 15.857,
+   "line": 5
+  },
+  {
+   "word": "decades",
+   "start": 15.857,
+   "end": 16.714,
+   "line": 5
+  },
+  {
+   "word": "down",
+   "start": 16.714,
+   "end": 17.143,
+   "line": 5
+  },
+  {
+   "word": "the",
+   "start": 17.143,
+   "end": 17.571,
+   "line": 5
+  },
+  {
+   "word": "line",
+   "start": 17.571,
+   "end": 18.0,
+   "line": 5
+  },
+  {
+   "word": "The",
+   "start": 18.0,
+   "end": 18.429,
+   "line": 6
+  },
+  {
+   "word": "echo",
+   "start": 18.429,
+   "end": 19.286,
+   "line": 6
+  },
+  {
+   "word": "tells",
+   "start": 19.286,
+   "end": 19.714,
+   "line": 6
+  },
+  {
+   "word": "you",
+   "start": 19.714,
+   "end": 20.143,
+   "line": 6
+  },
+  {
+   "word": "when",
+   "start": 20.143,
+   "end": 20.571,
+   "line": 6
+  },
+  {
+   "word": "it",
+   "start": 20.571,
+   "end": 21.0,
+   "line": 6
+  },
+  {
+   "word": "starts",
+   "start": 21.0,
+   "end": 21.429,
+   "line": 6
+  },
+  {
+   "word": "the",
+   "start": 21.429,
+   "end": 21.857,
+   "line": 7
+  },
+  {
+   "word": "E.F.",
+   "start": 21.857,
+   "end": 22.714,
+   "line": 7
+  },
+  {
+   "word": "in",
+   "start": 22.714,
+   "end": 23.143,
+   "line": 7
+  },
+  {
+   "word": "decline",
+   "start": 23.143,
+   "end": 24.0,
+   "line": 7
+  }
+ ]
+}

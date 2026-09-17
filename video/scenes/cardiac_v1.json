@@ -1,0 +1,7 @@
+[
+ {"at": "doxorubicin", "do": "circle"},
+ {"at": "Two-fifty", "do": "note", "text": "mg/m² cumulative"},
+ {"at": "year", "do": "underline"},
+ {"at": "echo", "do": "circle"},
+ {"at": "E.F.", "do": "note", "text": "LVEF falls"}
+]
