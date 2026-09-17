@@ -20,3 +20,34 @@ Rules learned:
 - One slurred word in a five-name line is as likely take-to-take variance as a
   real meter problem. Regenerate before rewriting.
 - Dropping a syllable to give spelled letters room is a legitimate lever.
+
+## Locked format for the chemo/immunotherapy set (settled in the chat, 2026-09)
+
+Style prompt (positive-only; Suno strips negations entirely rather than
+inverting them, tested by Grey with and without "Do not ..." lines, same output):
+
+    folk rock, clear-diction male lead with tight gang-vocal harmonies,
+    strummed acoustic guitar and upright bass, driving 130 BPM four-on-the-floor
+    kick, one syllable per note, vocals every bar, consistent full-band energy
+
+Suno normalises the prompt into its own description; artist-adjacent words
+("British", "revival") get sanded off, mechanical descriptors survive. It adds
+"subtle plate reverb" on its own. Exclude Styles is not a separate field in
+the mode Grey uses and is not applied.
+
+Meter: common meter 8-6-8-6, rhyme on every 6-syllable line, every 8-syllable
+line strictly iambic and ending on a stressed syllable.
+
+Titles: `Drug-Induced [Organ] Toxicity`, numbered if they should sort.
+
+Respellings that worked: blee-oh-MY-sin, gem-SITE-uh-bean, BYOO-sul-fan,
+em-TOR, ah-tez-oh; periods for abbreviations (I.L.D., R.T., P.F.T.).
+
+Interlude control: end the lyrics with `[End]` on its own line; fill the
+runtime (seven dense verses in ~2 min leaves no room for solos); crop the
+intro with Suno's trim tool rather than regenerating.
+
+For cardiac Grey wants the flavour nearer Mumford & Sons, Clumsy Lovers, sea
+shanties, Flogging Molly. Artist names do not survive normalisation, so
+translate to mechanical descriptors (banjo-forward, stomp-and-clap, call-and-
+response gang vocals, accordion/fiddle, 6/8 or driving 4/4).
