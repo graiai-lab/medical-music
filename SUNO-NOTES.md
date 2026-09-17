@@ -140,3 +140,18 @@ source):
 - "five" (after ah-tez-oh, durva) and "HER2" not heard at all
 - ev-er-OH-li-mus, BYOO-sul-fan heard correctly
 Grey's own ear is the judge on these; the list says where to listen.
+
+Cardiac stem, WhisperX: the final line IS sung, at 2:31-2:34, as "The heart
+block gets done" (the "it" dropped). The zero MMS_FA scores on that line
+were the aligner losing confidence at the tail, not a missing line; do not
+read a zero-score run as "not sung" without the transcript. Heard
+differently, worth Grey's ear:
+- ipi-nivo -> "epinephrine" (a clinically confusable mishearing; respell
+  or reword: "ipi with nivo")
+- Bevacizumab -> "Babasazumab"; dasatinib -> "tacitinib"; Ponatinib ->
+  "Potatinib"; lenvatinib -> "lenbatinib"; Capecitabine -> "Capacitabine"
+- "Ibrutinib" and "M.I." not heard; lytes -> "lights"; lung -> "long"
+- tor-SAHDS heard as "torsades": the respelling works
+- E.F. heard as "F" three times: the letters may be running together
+Which cardiac style this WAV came from (gang vocal or single lead) is not
+recorded; Grey to say.

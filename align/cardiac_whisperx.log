@@ -2,3 +2,29 @@ device=cpu
 72 lyric lines across 9 verses
 2026-09-17 13:36:04 - whisperx.vads.pyannote - INFO - Performing voice activity detection using Pyannote...
 Lightning automatically upgraded your loaded checkpoint from v1.5.4 to v2.6.6. To apply the upgrade to your files permanently, run `python -m lightning.pytorch.utilities.upgrade_checkpoint venv/lib/python3.12/site-packages/whisperx/assets/pytorch_model.bin`
+transcript saved: align/cardiac_vocals_whisperx.whisperx_raw.json
+390 timed words heard
+wrote align/cardiac_vocals_whisperx.json: 386 words, 22 not heard as written:
+  line 1: wrote 'muscle,', heard 'muscles'
+  line 2: wrote 'Two-fifty', heard '250'
+  line 7: wrote 'E.F.', heard 'F'
+  line 9: wrote 'E.F.', heard 'F'
+  line 10: wrote 'lung', heard 'long,'
+  line 13: wrote 'E.F.', heard 'F'
+  line 16: wrote 'five-F.U.', heard '5-FU'
+  line 18: wrote 'Capecitabine', heard 'Capacitabine'
+  line 25: wrote 'in', heard 'and'
+  line 25: wrote 'one,', heard 'on'
+  line 32: wrote 'Ibrutinib', heard None
+  line 44: wrote 'risk', heard 'risks,'
+  line 45: wrote 'lytes', heard 'lights'
+  line 47: wrote 'tor-SAHDS', heard 'torsades'
+  line 49: wrote 'lenvatinib', heard 'lenbatinib'
+  line 50: wrote 'Bevacizumab', heard 'Babasazumab'
+  line 56: wrote 'Ponatinib', heard 'Potatinib'
+  line 58: wrote 'an', heard None
+  line 58: wrote 'M.I.,', heard None
+  line 60: wrote 'dasatinib', heard 'tacitinib'
+  line 68: wrote 'ipi-nivo', heard 'epinephrine'
+  line 71: wrote 'it', heard None
+EXIT=0
