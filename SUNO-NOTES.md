@@ -11,6 +11,7 @@ after every render.
 | gemcitabine | gem-sit-a-bine | `Gem-SITE-uh-been` (blocks the short-i "citrus" reading) |
 | atezolizumab / atezo | slurred | `ah-tez-oh`; regenerate two or three times before calling the line too dense |
 | HER2 | unverified, may be "her two" / "hertz" | `H.E.R. two`, or reword |
+| torsades | "tor-say-ds" | `tor-SAHDS` (cardiac verse 6) |
 | DLCO, PFTs, RT | untested | `D.L.C.O.` / `dee-el-see-oh`, "lung function tests", `R.T.` or "radiation" |
 
 Rules learned:
