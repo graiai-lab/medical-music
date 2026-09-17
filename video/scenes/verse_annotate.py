@@ -50,9 +50,13 @@ class VerseAnnotate(Scene):
     def construct(self):
         align = load(os.environ.get("ALIGN"), {"words": []})
         annots = load(os.environ.get("ANNOT"), [])
+        lo, hi = 0, 10**9
+        if os.environ.get("LINES"):   # e.g. LINES=0-7 renders the first verse only
+            lo, hi = (int(x) for x in os.environ["LINES"].split("-"))
         lines = {}
         for w in align["words"]:
-            lines.setdefault(w["line"], []).append(w)
+            if lo <= w["line"] <= hi:
+                lines.setdefault(w["line"], []).append(w)
 
         rows = VGroup()
         sung = []  # (word dict, glyph group)

@@ -1,0 +1,63 @@
+device=cpu
+56 lyric lines across 7 verses
+2026-09-17 13:31:27 - whisperx.vads.pyannote - INFO - Performing voice activity detection using Pyannote...
+Lightning automatically upgraded your loaded checkpoint from v1.5.4 to v2.6.6. To apply the upgrade to your files permanently, run `python -m lightning.pytorch.utilities.upgrade_checkpoint venv/lib/python3.12/site-packages/whisperx/assets/pytorch_model.bin`
+transcript saved: align/lungs_vocals_whisperx.whisperx_raw.json
+269 timed words heard
+wrote align/lungs_vocals_whisperx.json: 302 words, 55 not heard as written:
+  line 0: wrote 'blee-oh-MY-sin', heard None
+  line 0: wrote '—', heard None
+  line 1: wrote 'four', heard None
+  line 1: wrote 'hundred', heard None
+  line 8: wrote 'ev-er-OH-li-mus', heard 'Everolimus'
+  line 10: wrote 'tem-sir-OH-li-mus', heard 'Tanserolimus'
+  line 10: wrote 'too', heard 'tubal'
+  line 11: wrote 'both', heard 'gum'
+  line 11: wrote 'em-TOR', heard 'toward'
+  line 16: wrote 'Gem-SITE-uh-bean', heard None
+  line 16: wrote 'will', heard None
+  line 16: wrote 'leak', heard None
+  line 16: wrote 'the', heard None
+  line 16: wrote 'lung', heard None
+  line 17: wrote 'in', heard None
+  line 17: wrote 'days', heard None
+  line 17: wrote 'to', heard None
+  line 17: wrote 'weeks,', heard None
+  line 17: wrote 'not', heard None
+  line 17: wrote 'years', heard None
+  line 18: wrote 'It', heard None
+  line 18: wrote 'looks', heard None
+  line 18: wrote 'like', heard None
+  line 18: wrote 'fluid', heard None
+  line 18: wrote 'overload', heard None
+  line 19: wrote "that's", heard None
+  line 19: wrote 'where', heard None
+  line 19: wrote 'the', heard None
+  line 19: wrote 'picture', heard None
+  line 19: wrote 'steers', heard None
+  line 20: wrote 'The', heard None
+  line 20: wrote 'lasix', heard None
+  line 20: wrote 'does', heard None
+  line 20: wrote 'not', heard None
+  line 20: wrote 'clear', heard None
+  line 20: wrote 'the', heard None
+  line 20: wrote 'chest', heard None
+  line 21: wrote 'the', heard None
+  line 21: wrote 'heart', heard None
+  line 21: wrote 'is', heard None
+  line 21: wrote 'not', heard None
+  line 21: wrote 'to', heard None
+  line 21: wrote 'blame', heard None
+  line 29: wrote 'the', heard 'but'
+  line 32: wrote 'nivo,', heard None
+  line 32: wrote 'ipi', heard None
+  line 32: wrote 'too', heard None
+  line 33: wrote 'ah-tez-oh,', heard None
+  line 33: wrote '—', heard None
+  line 33: wrote 'five', heard None
+  line 40: wrote 'Trastuzumab', heard 'Trastazumab,'
+  line 40: wrote 'deruxtecan', heard 'Diroxacan,'
+  line 41: wrote 'HER2,', heard None
+  line 48: wrote 'BYOO-sul-fan,', heard 'busulfan'
+  line 55: wrote 'skip', heard 'skipped'
+EXIT=0

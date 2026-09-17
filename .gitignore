@@ -10,3 +10,5 @@ audio/test/mfa_out/alignment_analysis.csv
 
 # raw Suno WAV downloads; the FLAC next to each is the tracked lossless copy
 audio/*.wav
+audio/demucs/
+audio/*_vocals.wav
